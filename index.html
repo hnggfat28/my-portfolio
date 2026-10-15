@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Nguyen Hung Phat — Front-end Developer portfolio." data-i18n-attr="content" data-i18n="meta.description" />
+  <title data-i18n="meta.title">Nguyen Hung Phat | Front-end Developer</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="bg-glow bg-glow--hero" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow--skills" aria-hidden="true"></div>
+
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="logo" href="#top" aria-label="Home" data-i18n-aria="nav.home">NHP</a>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation" data-i18n-aria="nav.label">
+        <ul>
+          <li><a href="#top" data-i18n="nav.home">Home</a></li>
+          <li><a href="#about" data-i18n="nav.about">About</a></li>
+          <li><a href="#experience" data-i18n="nav.experience">Experience</a></li>
+          <li><a href="#projects" data-i18n="nav.projects">Projects</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-tools">
+        <button type="button" class="language-toggle" aria-label="Switch to Vietnamese" title="Switch to Vietnamese">
+          <span class="language-toggle__code" aria-hidden="true">ENG</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <circle cx="12" cy="12" r="9"></circle>
+            <path d="M3.5 9h17M3.5 15h17M12 3c2.3 2.4 3.4 5.4 3.4 9s-1.1 6.6-3.4 9c-2.3-2.4-3.4-5.4-3.4-9S9.7 5.4 12 3Z"></path>
+          </svg>
+        </button>
+        <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu" data-i18n-aria="menu.open">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-layout reveal">
+        <div class="hero-visual">
+          <div class="avatar-orbit">
+            <div class="avatar-orbit__ring"></div>
+            <div class="avatar-orbit__inner">
+              <span class="avatar-initials" aria-hidden="true">NHP</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-copy">
+          <p class="hero-greeting">
+            <span data-i18n="hero.greeting">Hello! I Am</span> <span class="text-accent">Nguyen Hung Phat</span>
+          </p>
+          <h1 class="hero-headline" data-i18n-html="hero.headline">
+            A developer who cares about
+            <span class="highlight-oval">pixel-perfect</span>
+            interfaces and smooth user experience.
+          </h1>
+          <p class="hero-tagline">
+            <span data-i18n="hero.tagline">I&apos;m a Front-end Developer</span><span class="typing-cursor" aria-hidden="true">|</span>
+          </p>
+          <p class="hero-summary" data-i18n-html="hero.summary">
+            Front-end Developer with hands-on experience in ReactJS, JavaScript, and modern UI libraries.
+            I integrate RESTful APIs and turn Figma designs into responsive products. Currently building
+            CMS &amp; ERP interfaces at
+            <span class="text-brand">TopOnTech</span>
+            in Ho Chi Minh City.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-glow" data-i18n="hero.work">View my work</a>
+            <a href="#contact" class="btn btn-ghost" data-i18n="hero.contact">Contact me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section section-about">
+      <div class="container narrow reveal">
+        <h2 class="section-label" data-i18n="about.heading">About Me</h2>
+        <p class="about-text" data-i18n="about.body">
+          Passionate about improving user experience and developing scalable front-end solutions.
+          Strong in Scrum workflow, responsive design, BEM methodology, and GitLab CI/CD.
+          Seeking to grow into a professional Front-end Engineer in a real-world product environment.
+        </p>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container reveal">
+        <h2 class="section-heading" data-i18n="experience.heading">Work Experience</h2>
+        <p class="section-sub" data-i18n-html="experience.meta">
+          Front End Developer · TopOnTech · <time datetime="2025-02/2026-04">Feb 2025 — Apr 2026</time>
+        </p>
+        <div class="exp-grid">
+          <article class="exp-card">
+            <div class="exp-card__icon" aria-hidden="true">01</div>
+            <div class="exp-card__body">
+              <h3 data-i18n="experience.cms.title">CMS &amp; ERP Systems</h3>
+              <p data-i18n="experience.cms.body">Built and maintained web applications with ReactJS, connecting complex business flows to RESTful APIs.</p>
+              <a href="#projects" class="exp-link" data-i18n="experience.projects">See projects</a>
+            </div>
+          </article>
+          <article class="exp-card">
+            <div class="exp-card__icon" aria-hidden="true">02</div>
+            <div class="exp-card__body">
+              <h3 data-i18n="experience.landing.title">Landing Pages</h3>
+              <p data-i18n="experience.landing.body">Responsive marketing pages with HTML, CSS, JavaScript, Bootstrap, and Tailwind for desktop and mobile.</p>
+              <a href="#projects" class="exp-link" data-i18n="experience.projects">See projects</a>
+            </div>
+          </article>
+          <article class="exp-card">
+            <div class="exp-card__icon" aria-hidden="true">03</div>
+            <div class="exp-card__body">
+              <h3 data-i18n="experience.mui.title">UI with Material UI</h3>
+              <p data-i18n="experience.mui.body">Consistent, user-friendly interfaces using MUI — reusable components and design system alignment.</p>
+              <a href="#skills" class="exp-link" data-i18n="experience.stack">My stack</a>
+            </div>
+          </article>
+          <article class="exp-card">
+            <div class="exp-card__icon" aria-hidden="true">04</div>
+            <div class="exp-card__body">
+              <h3 data-i18n="experience.gitlab.title">GitLab &amp; CI/CD</h3>
+              <p data-i18n="experience.gitlab.body">Source control on GitLab and automated build/deploy pipelines for reliable delivery.</p>
+              <a href="#contact" class="exp-link" data-i18n="experience.getInTouch">Get in touch</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-skills">
+      <div class="container reveal">
+        <h2 class="section-heading" data-i18n="skills.heading">Technical Skills</h2>
+        <p class="skills-lead" data-i18n-html="skills.lead">
+          I&apos;m looking to join a
+          <span class="text-accent">cross-functional</span>
+          team where I can ship polished front-end work and keep learning.
+        </p>
+
+        <div class="skills-visual" aria-label="Technology stack">
+          <div class="skills-row skills-row--top">
+            <div class="skill-icon" style="--i: 0">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" alt="Figma" width="40" height="40" loading="lazy" />
+              <span class="skill-icon__label">Figma</span>
+            </div>
+            <div class="skill-icon" style="--i: 1">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" width="40" height="40" loading="lazy" />
+              <span class="skill-icon__label">React</span>
+            </div>
+            <div class="skill-icon" style="--i: 2">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5" width="40" height="40" loading="lazy" />
+              <span class="skill-icon__label">HTML5</span>
+            </div>
+            <div class="skill-icon" style="--i: 3">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40" loading="lazy" />
+              <span class="skill-icon__label">JavaScript</span>
+            </div>
+            <div class="skill-icon" style="--i: 4">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40" loading="lazy" />
+              <span class="skill-icon__label">TypeScript</span>
+            </div>
+            <div class="skill-icon" style="--i: 5">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3" width="40" height="40" loading="lazy" />
+              <span class="skill-icon__label">CSS3</span>
+            </div>
+            <div class="skill-icon" style="--i: 6">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" width="40" height="40" loading="lazy" />
+              <span class="skill-icon__label">Tailwind</span>
+            </div>
+          </div>
+
+          <div class="skills-row skills-row--bottom">
+            <div class="skill-icon skill-icon--wired" style="--i: 0">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" width="40" height="40" loading="lazy" />
+              <span class="skill-icon__label">Bootstrap</span>
+            </div>
+            <div class="skill-icon skill-icon--wired" style="--i: 1">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg" alt="Material UI" width="40" height="40" loading="lazy" />
+              <span class="skill-icon__label">MUI</span>
+            </div>
+            <div class="skill-icon skill-icon--wired" style="--i: 2">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" width="40" height="40" loading="lazy" />
+              <span class="skill-icon__label">Git</span>
+            </div>
+            <div class="skill-icon skill-icon--wired" style="--i: 3">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original.svg" alt="GitLab" width="40" height="40" loading="lazy" />
+              <span class="skill-icon__label">GitLab</span>
+            </div>
+            <div class="skill-icon skill-icon--wired" style="--i: 4">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" alt="Postman" width="40" height="40" loading="lazy" />
+              <span class="skill-icon__label">Postman</span>
+            </div>
+            <div class="skill-icon skill-icon--wired" style="--i: 5">
+              <img class="skill-icon__rest" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" alt="RESTful APIs" width="40" height="40" loading="lazy" />
+              <span class="skill-icon__label">REST API</span>
+            </div>
+          </div>
+
+          <svg class="skills-connector" viewBox="0 0 720 100" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+            <defs>
+              <linearGradient id="lineGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+                <stop offset="0%" stop-color="#a855f7" stop-opacity="0.9" />
+                <stop offset="100%" stop-color="#a855f7" stop-opacity="0.15" />
+              </linearGradient>
+            </defs>
+            <path d="M360 98 L360 55" stroke="url(#lineGrad)" stroke-width="1.5" fill="none" />
+            <path d="M360 98 Q360 70 72 8" stroke="url(#lineGrad)" stroke-width="1.2" fill="none" />
+            <path d="M360 98 Q360 65 168 8" stroke="url(#lineGrad)" stroke-width="1.2" fill="none" />
+            <path d="M360 98 Q360 60 264 8" stroke="url(#lineGrad)" stroke-width="1.2" fill="none" />
+            <path d="M360 98 Q360 60 456 8" stroke="url(#lineGrad)" stroke-width="1.2" fill="none" />
+            <path d="M360 98 Q360 65 552 8" stroke="url(#lineGrad)" stroke-width="1.2" fill="none" />
+            <path d="M360 98 Q360 70 648 8" stroke="url(#lineGrad)" stroke-width="1.2" fill="none" />
+          </svg>
+
+          <div class="skills-core" aria-hidden="true">
+            <span>NHP</span>
+          </div>
+        </div>
+
+        <div class="skills-categories">
+          <div class="skill-tag-group">
+            <strong data-i18n="skills.practices">Practices</strong>
+            <span data-i18n="skills.scrum">Scrum</span><span data-i18n="skills.oop">OOP</span><span data-i18n="skills.responsive">Responsive</span><span>BEM</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-heading reveal" data-i18n="projects.heading">Projects</h2>
+        <p class="section-sub reveal" data-i18n="projects.sub">Click a project to see my role, contributions, and tech stack in detail.</p>
+
+        <div class="projects-grid reveal">
+          <button type="button" class="project-card" data-project="thaco">
+            <div class="project-card__thumb project-card__thumb--voucher">
+              <span class="project-card__type" data-i18n="projectCard.internal">Internal CMS</span>
+            </div>
+            <div class="project-card__body">
+              <h3>ThaCo Auto Service</h3>
+              <p data-i18n="projectCard.thaco">Voucher Management module · React &amp; MUI</p>
+              <ul class="project-card__tags">
+                <li>React</li><li>MUI</li><li>REST</li>
+              </ul>
+              <span class="project-card__cta" data-i18n="projects.details">View details →</span>
+            </div>
+          </button>
+
+          <button type="button" class="project-card" data-project="sinhnam">
+            <div class="project-card__thumb project-card__thumb--facade">
+              <span class="project-card__type" data-i18n="projectCard.corporate">Corporate Web</span>
+            </div>
+            <div class="project-card__body">
+              <h3>SinhNam Facade</h3>
+              <p data-i18n="projectCard.sinhnam">Figma to responsive UI · HTML/CSS/JS</p>
+              <ul class="project-card__tags">
+                <li>HTML</li><li>CSS</li><li>JS</li>
+              </ul>
+              <span class="project-card__cta" data-i18n="projects.details">View details →</span>
+            </div>
+          </button>
+
+          <button type="button" class="project-card" data-project="mazda">
+            <div class="project-card__thumb project-card__thumb--mazda">
+              <span class="project-card__type" data-i18n="projectCard.brand">Brand Website</span>
+            </div>
+            <div class="project-card__body">
+              <h3>Mazda Web</h3>
+              <p data-i18n="projectCard.mazda">Showroom maps &amp; responsive layouts</p>
+              <ul class="project-card__tags">
+                <li>HTML</li><li>CSS</li><li>Maps</li>
+              </ul>
+              <span class="project-card__cta" data-i18n="projects.details">View details →</span>
+            </div>
+          </button>
+
+          <button type="button" class="project-card" data-project="peugeot">
+            <div class="project-card__thumb project-card__thumb--peugeot">
+              <span class="project-card__type" data-i18n="projectCard.landing">Landing Page</span>
+            </div>
+            <div class="project-card__body">
+              <h3>Peugeot Landing</h3>
+              <p data-i18n="projectCard.peugeot">Component-driven UI with Material UI</p>
+              <ul class="project-card__tags">
+                <li>React</li><li>MUI</li>
+              </ul>
+              <span class="project-card__cta" data-i18n="projects.details">View details →</span>
+            </div>
+          </button>
+
+          <button type="button" class="project-card" data-project="course-web">
+            <div class="project-card__thumb project-card__thumb--course">
+              <span class="project-card__type" data-i18n="projectCard.elearning">E-learning</span>
+            </div>
+            <div class="project-card__body">
+              <h3>Course Selling Website</h3>
+              <p data-i18n="projectCard.courseWeb">Catalog, schedule &amp; payment flows</p>
+              <ul class="project-card__tags">
+                <li>React</li><li>API</li>
+              </ul>
+              <span class="project-card__cta" data-i18n="projects.details">View details →</span>
+            </div>
+          </button>
+
+          <button type="button" class="project-card" data-project="course-app">
+            <div class="project-card__thumb project-card__thumb--flutter">
+              <span class="project-card__type" data-i18n="projectCard.mobile">Mobile App</span>
+            </div>
+            <div class="project-card__body">
+              <h3>Course Selling App</h3>
+              <p data-i18n="projectCard.courseApp">Flutter Android · course &amp; orders</p>
+              <ul class="project-card__tags">
+                <li>Flutter</li><li>API</li>
+              </ul>
+              <span class="project-card__cta" data-i18n="projects.details">View details →</span>
+            </div>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <div class="project-modal" id="project-modal" hidden aria-hidden="true">
+      <div class="project-modal__overlay" data-close-modal tabindex="-1"></div>
+      <div
+        class="project-modal__dialog"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal-title"
+        aria-describedby="modal-desc"
+      >
+        <button type="button" class="project-modal__close" data-close-modal aria-label="Close project details" data-i18n-aria="modal.close">
+          ×
+        </button>
+        <header class="project-modal__header">
+          <p class="project-modal__eyebrow" id="modal-type"></p>
+          <h2 id="modal-title"></h2>
+          <p class="project-modal__meta" id="modal-meta"></p>
+        </header>
+        <div class="project-modal__content">
+          <p class="project-modal__summary" id="modal-desc"></p>
+          <div class="project-modal__block">
+            <h3 data-i18n="modal.contributions">What I did</h3>
+            <ul id="modal-tasks"></ul>
+          </div>
+          <div class="project-modal__block">
+            <h3 data-i18n="modal.stack">Tech stack</h3>
+            <ul class="project-modal__stack" id="modal-stack"></ul>
+          </div>
+          <div class="project-modal__links" id="modal-links"></div>
+        </div>
+      </div>
+    </div>
+
+    <section id="education" class="section section-edu">
+      <div class="container edu-row reveal">
+        <article class="edu-block">
+          <h2 class="section-heading" data-i18n="education.heading">Education</h2>
+          <p class="edu-degree" data-i18n="education.degree">Software Engineering</p>
+          <p data-i18n="education.school">Ho Chi Minh University of Technology</p>
+          <p class="edu-meta"><time datetime="2021/2025">2021 — 2025</time> · GPA 3.24 / 4.0</p>
+        </article>
+        <article class="edu-block">
+          <h2 class="section-heading" data-i18n="education.languages">Languages</h2>
+          <p data-i18n-html="education.english"><strong>English</strong> — Basic working proficiency (technical reading &amp; basic communication).</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-contact">
+      <div class="container contact-wrap reveal">
+        <h2 class="section-heading" data-i18n="contact.heading">Contact</h2>
+        <p class="section-sub" data-i18n="contact.sub">Open to front-end roles and collaborations.</p>
+        <div class="contact-row">
+          <a href="mailto:nguyenhungphat2810@gmail.com">nguyenhungphat2810@gmail.com</a>
+          <a href="tel:+84898697252">+84 898 697 252</a>
+          <span data-i18n="contact.location">Ho Chi Minh City, Vietnam</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Nguyen Hung Phat</p>
+      <a href="#top" data-i18n="footer.top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
