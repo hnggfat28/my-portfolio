@@ -37,7 +37,10 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
 }
-
+.footer-top{
+  margin-block-start: 1em;
+    margin-block-end: 1em;
+}
 a {
   color: var(--purple-bright);
   transition: color var(--transition);
@@ -197,7 +200,7 @@ a:hover {
   flex-direction: column;
   gap: 5px;
   width: 44px;
-  height: 44px;
+  /* height: 44px; */
   border: none;
   background: transparent;
   cursor: pointer;
@@ -631,7 +634,7 @@ main {
   align-items: center;
   justify-content: center;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 18px;
   color: #fff;
   box-shadow: 0 0 48px var(--purple-glow);
   z-index: 3;
@@ -1108,7 +1111,7 @@ body.modal-open {
   .skills-core {
     width: 72px;
     height: 72px;
-    font-size: 13px;
+    font-size: 18px;
   }
 
   .skills-categories {
