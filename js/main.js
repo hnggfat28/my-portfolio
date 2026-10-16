@@ -19,7 +19,7 @@
       "hero.greeting": "Hello! I Am",
       "hero.headline": 'A developer who cares about <span class="highlight-oval">pixel-perfect</span> interfaces and smooth user experience.',
       "hero.tagline": "I'm a Front-end Developer",
-      "hero.summary": 'Front-end Developer with hands-on experience in ReactJS, JavaScript, and modern UI libraries. I integrate RESTful APIs and turn Figma designs into responsive products. Currently building CMS &amp; ERP interfaces at <span class="text-brand">TopOnTech</span> in Ho Chi Minh City.',
+      "hero.summary": 'Front-end Developer with hands-on experience in ReactJS, JavaScript, and modern UI libraries. I integrate RESTful APIs and turn Figma designs into responsive products.',
       "hero.work": "View my work",
       "hero.contact": "Contact me",
       "about.heading": "About Me",
@@ -38,11 +38,14 @@
       "experience.stack": "My stack",
       "experience.getInTouch": "Get in touch",
       "skills.heading": "Technical Skills",
-      "skills.lead": 'I&apos;m looking to join a <span class="text-accent">cross-functional</span> team where I can ship polished front-end work and keep learning.',
-      "skills.practices": "Practices",
-      "skills.scrum": "Scrum",
-      "skills.oop": "OOP",
-      "skills.responsive": "Responsive",
+      "skills.languages": "<strong>Languages:</strong> HTML5, CSS3, JavaScript (ES6+), TypeScript.",
+      "skills.frontend": "<strong>Front-end:</strong> ReactJS, React Hooks, Responsive Web Design.",
+      "skills.uiLibraries": "<strong>UI Libraries:</strong> Material UI, Bootstrap, Tailwind CSS.",
+      "skills.tools": "<strong>Tools:</strong> Git, GitLab, Postman, Figma.",
+      "skills.apiData": "<strong>API &amp; Data:</strong> RESTful APIs, HTTP, JSON, Async/Await.",
+      "skills.practices": "<strong>Practices &amp; Concepts:</strong> Scrum workflow, debugging, git workflow.",
+      "skills.database": "<strong>Database:</strong> MySQL, SQL Server.",
+      "skills.cms": "<strong>CMS:</strong> WordPress (Basic), Umbraco.",
       "projects.heading": "Projects",
       "projects.sub": "Click a project to see my role, contributions, and tech stack in detail.",
       "projects.details": "View details →",
@@ -56,8 +59,8 @@
       "projectCard.peugeot": "Component-driven UI with Material UI",
       "projectCard.elearning": "E-learning",
       "projectCard.courseWeb": "Catalog, schedule & payment flows",
-      "projectCard.mobile": "Mobile App",
-      "projectCard.courseApp": "Flutter Android · course & orders",
+      "projectCard.ctd": "Corporate Website",
+      "projectCard.ctdDescription": "Website maintenance, UI fixes & responsive refinement",
       "modal.close": "Close project details",
       "modal.contributions": "What I did",
       "modal.stack": "Tech stack",
@@ -71,7 +74,7 @@
       "contact.heading": "Contact",
       "contact.sub": "Open to front-end roles and collaborations.",
       "contact.location": "Ho Chi Minh City, Vietnam",
-      "footer.top": "Back to top ↑"
+      "footer.top": "Back to top"
     },
     vi: {
       "meta.title": "Nguyễn Hưng Phát | Lập trình viên Front-end",
@@ -90,7 +93,7 @@
       "hero.greeting": "Xin chào! Mình là",
       "hero.headline": 'Lập trình viên luôn chăm chút giao diện <span class="highlight-oval">đến từng pixel</span> và trải nghiệm người dùng mượt mà.',
       "hero.tagline": "Mình là lập trình viên Front-end",
-      "hero.summary": 'Lập trình viên Front-end có kinh nghiệm thực tế với ReactJS, JavaScript và các thư viện giao diện hiện đại. Mình tích hợp RESTful API và chuyển thiết kế Figma thành sản phẩm tương thích nhiều màn hình. Hiện đang phát triển giao diện CMS &amp; ERP tại <span class="text-brand">TopOnTech</span>, TP. Hồ Chí Minh.',
+      "hero.summary": 'Lập trình viên Front-end có kinh nghiệm thực tế với ReactJS, JavaScript và các thư viện giao diện hiện đại. Mình tích hợp RESTful API và chuyển thiết kế Figma thành sản phẩm tương thích nhiều màn hình.',
       "hero.work": "Xem dự án",
       "hero.contact": "Liên hệ với mình",
       "about.heading": "Giới thiệu",
@@ -109,11 +112,14 @@
       "experience.stack": "Công nghệ sử dụng",
       "experience.getInTouch": "Kết nối với mình",
       "skills.heading": "Kỹ năng chuyên môn",
-      "skills.lead": 'Mình muốn tham gia một đội ngũ <span class="text-accent">đa chức năng</span>, nơi có thể tạo ra sản phẩm front-end chỉn chu và không ngừng học hỏi.',
-      "skills.practices": "Phương pháp",
-      "skills.scrum": "Scrum",
-      "skills.oop": "Lập trình hướng đối tượng",
-      "skills.responsive": "Thiết kế responsive",
+      "skills.languages": "<strong>Ngôn ngữ:</strong> HTML5, CSS3, JavaScript (ES6+), TypeScript.",
+      "skills.frontend": "<strong>Front-end:</strong> ReactJS, React Hooks, thiết kế web responsive.",
+      "skills.uiLibraries": "<strong>Thư viện UI:</strong> Material UI, Bootstrap, Tailwind CSS.",
+      "skills.tools": "<strong>Công cụ:</strong> Git, GitLab, Postman, Figma.",
+      "skills.apiData": "<strong>API &amp; Dữ liệu:</strong> RESTful APIs, HTTP, JSON, Async/Await.",
+      "skills.practices": "<strong>Quy trình &amp; Kiến thức:</strong> quy trình Scrum, debugging, quy trình Git.",
+      "skills.database": "<strong>Cơ sở dữ liệu:</strong> MySQL, SQL Server.",
+      "skills.cms": "<strong>CMS:</strong> WordPress (cơ bản), Umbraco.",
       "projects.heading": "Dự án",
       "projects.sub": "Chọn một dự án để xem vai trò, đóng góp và công nghệ được sử dụng.",
       "projects.details": "Xem chi tiết →",
@@ -127,8 +133,8 @@
       "projectCard.peugeot": "Giao diện component với Material UI",
       "projectCard.elearning": "Nền tảng học trực tuyến",
       "projectCard.courseWeb": "Danh mục khóa học, lịch học và thanh toán",
-      "projectCard.mobile": "Ứng dụng di động",
-      "projectCard.courseApp": "Flutter Android · khóa học & đơn hàng",
+      "projectCard.ctd": "Website doanh nghiệp",
+      "projectCard.ctdDescription": "Bảo trì website, sửa lỗi giao diện và tối ưu responsive",
       "modal.close": "Đóng chi tiết dự án",
       "modal.contributions": "Đóng góp của mình",
       "modal.stack": "Công nghệ sử dụng",
@@ -142,7 +148,7 @@
       "contact.heading": "Liên hệ",
       "contact.sub": "Mình sẵn sàng đón nhận cơ hội Front-end và hợp tác trong các dự án.",
       "contact.location": "TP. Hồ Chí Minh, Việt Nam",
-      "footer.top": "Về đầu trang ↑"
+      "footer.top": "Về đầu trang"
     }
   };
 
@@ -184,7 +190,11 @@
       if (!target) return;
       e.preventDefault();
       closeNav();
-      target.scrollIntoView({ behavior: "smooth", block: "start" });
+      if (id === "#top") {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      } else {
+        target.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
       history.replaceState(null, "", id);
     });
   });
@@ -246,7 +256,7 @@
         "Integrated RESTful APIs for data synchronization between frontend and backend.",
         "Improved and maintained existing system features for better usability and consistency.",
       ],
-      stack: ["ReactJS", "Material UI", "JavaScript", "RESTful APIs", "GitLab"],
+      stack: ["ReactJS", "Material UI", "JavaScript", "RESTful APIs", "GitLab", "TypeScript"],
       links: [],
       vi: {
         type: "CMS nội bộ · Dịch vụ ô tô ThaCo",
@@ -272,7 +282,7 @@
         "Converted Figma designs into pixel-perfect layouts with consistent UI across breakpoints.",
         "Collaborated in a team of developers following Git workflow via GitLab.",
       ],
-      stack: ["HTML5", "CSS3", "JavaScript", "Figma", "GitLab", "Responsive Design"],
+      stack: ["HTML5", "CSS3", "JavaScript", "Figma", "GitLab", "Responsive Design", "Umbraco CMS"],
       links: [{ label: "Live demo", url: "https://sinhnamfacade.com" }],
       vi: {
         type: "Website doanh nghiệp",
@@ -297,7 +307,7 @@
         "Optimized layouts and interactions for both desktop and mobile viewports.",
         "Integrated Google Maps iframe to display showroom locations.",
       ],
-      stack: ["HTML5", "CSS3", "JavaScript", "Google Maps", "Responsive Design"],
+      stack: ["HTML5", "CSS3", "JavaScript", "Google Maps", "Responsive Design", "Figma", "GitLab", "Umbraco CMS"],
       links: [{ label: "Live demo", url: "https://mazdamotors.vn" }],
       vi: {
         type: "Website thương hiệu",
@@ -366,35 +376,30 @@
         ]
       },
     },
-    "course-app": {
-      type: "E-learning Platform (Mobile)",
-      title: "Course Selling App",
-      meta: "Front-end Developer · Team of 3 · Flutter (Android)",
+    "ctd-global": {
+      type: "Corporate Website",
+      title: "CTD Global Website",
+      meta: "Front-end Developer · Team of 3",
       summary:
-        "Companion Android app for the course platform — browsing courses, managing orders, and keeping user data in sync with the same backend as the web product.",
+        "Maintained and refined the CTD Global website, focusing on stability, performance, responsive layouts, and a consistent user experience.",
       tasks: [
-        "Developed a mobile application using Flutter for Android devices.",
-        "Designed a user-friendly interface for course browsing and purchase flows.",
-        "Integrated APIs to synchronize user data, courses, and order details.",
+        "Performed regular website maintenance to ensure system stability, improve performance, and maintain a smooth user experience.",
+        "Identified and fixed user interface bugs, resolved layout issues, and improved consistency across screen sizes.",
+        "Updated and refined website interfaces based on new design specifications, ensuring visual consistency, responsiveness, and a better user experience."
       ],
-      stack: ["Flutter", "Dart", "RESTful APIs", "Android"],
-      links: [
-        {
-          label: "View on GitHub",
-          url: "https://github.com/trantrung28122003/EasyLearning-JAVA",
-        },
-      ],
+      stack: ["HTML5", "CSS3", "JavaScript", "GitLab", "Figma", "WordPress CMS"],
+      links: [],
       vi: {
-        type: "Nền tảng học trực tuyến (Di động)",
-        title: "Ứng dụng bán khóa học",
-        meta: "Lập trình viên Front-end · Nhóm 3 người · Flutter (Android)",
-        summary: "Ứng dụng Android đồng hành cùng nền tảng khóa học, hỗ trợ duyệt khóa học, quản lý đơn hàng và đồng bộ dữ liệu người dùng với cùng hệ thống backend của website.",
+        type: "Website doanh nghiệp",
+        title: "CTD Global Website",
+        meta: "Lập trình viên Front-end · Nhóm 3 người",
+        summary: "Bảo trì và hoàn thiện website CTD Global, tập trung vào tính ổn định, hiệu năng, bố cục responsive và trải nghiệm người dùng nhất quán.",
         tasks: [
-          "Phát triển ứng dụng di động bằng Flutter cho thiết bị Android.",
-          "Thiết kế giao diện thân thiện cho quy trình duyệt và mua khóa học.",
-          "Tích hợp API để đồng bộ dữ liệu người dùng, khóa học và đơn hàng."
+          "Thường xuyên bảo trì website để đảm bảo hệ thống ổn định, cải thiện hiệu năng và duy trì trải nghiệm mượt mà.",
+          "Tìm và sửa lỗi giao diện, khắc phục vấn đề bố cục, cải thiện tính nhất quán trên nhiều kích thước màn hình.",
+          "Cập nhật và hoàn thiện giao diện theo thiết kế mới, đảm bảo tính nhất quán trực quan, khả năng responsive và trải nghiệm tốt hơn."
         ]
-      },
+      }
     },
   };
 
@@ -405,6 +410,7 @@
   var modalDesc = document.getElementById("modal-desc");
   var modalTasks = document.getElementById("modal-tasks");
   var modalStack = document.getElementById("modal-stack");
+  var modalStackBlock = document.getElementById("modal-stack-block");
   var modalLinks = document.getElementById("modal-links");
   var lastFocused = null;
 
@@ -419,6 +425,7 @@
     if (modalDesc) modalDesc.textContent = localizedData.summary;
     fillList(modalTasks, localizedData.tasks);
     fillList(modalStack, data.stack);
+    if (modalStackBlock) modalStackBlock.hidden = data.stack.length === 0;
 
     if (modalLinks) {
       modalLinks.innerHTML = "";

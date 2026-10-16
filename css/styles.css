@@ -638,28 +638,28 @@ main {
 }
 
 .skills-categories {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem 2rem;
+  max-width: 980px;
+  margin: 0 auto;
+  text-align: left;
 }
 
-.skill-tag-group {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 13px;
+.skills-list {
+  margin: 0;
+  padding-left: 1.25rem;
   color: var(--text-muted);
+  line-height: 1.65;
 }
 
-.skill-tag-group strong {
+.skills-list li {
+  padding-left: 0.15rem;
+  margin-bottom: 0.65rem;
+}
+
+.skills-list strong {
   color: var(--purple-bright);
-  margin-right: 0.25rem;
-}
-
-.skill-tag-group span {
-  padding: 0.35rem 0.75rem;
-  background: rgba(168, 85, 247, 0.1);
-  border-radius: 8px;
 }
 
 /* Projects grid */
@@ -724,8 +724,8 @@ main {
   background: linear-gradient(145deg, #134e4a, #14b8a6 50%, #99f6e4);
 }
 
-.project-card__thumb--flutter {
-  background: linear-gradient(145deg, #0c4a6e, #0284c7 45%, #7dd3fc);
+.project-card__thumb--ctd {
+  background: linear-gradient(145deg, #164e63, #0891b2 50%, #a5f3fc);
 }
 
 .project-card__type {
@@ -1109,6 +1109,11 @@ body.modal-open {
     width: 72px;
     height: 72px;
     font-size: 13px;
+  }
+
+  .skills-categories {
+    grid-template-columns: 1fr;
+    gap: 0;
   }
 }
 
